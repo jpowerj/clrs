@@ -1,0 +1,66 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 3e7d3258-cf97-45a1-8aa3-8f721f50ba06
+  title: "Introduction to Algorithms"
+  bibliography: "_CLRS.bib"
+  resources:
+    - /static/CLRS_4e.pdf
+  # description: "Test"
+  # keywords: []
+  # authors: [DeGroot, Schervish]
+  github: jpowerj/clrs
+  # numbering:
+  #   title: true
+  #   heading_1: true
+  #   heading_2:
+  #     enabled: true
+  #     # start: 1
+  #   heading_3:
+  #     enabled: true
+  #     # start: 1
+  # downloads:
+  #   - url: static/DeGroot_Schervish_4e.pdf
+  #     filename: "DeGroot_Schervish_4e.pdf"
+  #     title: "PDF Version"
+  #     static: true
+  toc:
+    - file: intro.md
+    - file: ch01/index.md
+      children:
+        - pattern: "ch01/01-*.md"
+    - file: ch02/index.md
+      children:
+        - pattern: "ch02/02-*.md"
+    - file: ch03/index.md
+      children:
+        - pattern: "ch03/03-*.md"
+    - file: ch04/index.md
+      children:
+        - pattern: "ch04/04-*.md"
+    - file: ch05/index.md
+      children:
+        - pattern: "ch05/05-*.md"
+    - file: ch10/index.md
+      children:
+        - pattern: "ch10/10-*.md"
+    - file: ch11/index.md
+      children:
+        - pattern: "ch11/11-*.md"
+    - file: ch12/index.md
+      children:
+        - pattern: "ch12/12-*.md"
+    - file: ch34/index.md
+      children:
+        - pattern: "ch34/34-*.md"
+    - url: "https://jjacobs.me/clrs-pdf"
+      title: "PDF Version"
+site:
+  template: book-theme
+  title: Introduction to Algorithms
+  options:
+    favicon: favicon.png
+    folders: true
+    logo_text: "CLRS, Introducton to Algorithms (4th Edition)"
+    hide_myst_branding: true
+    style: jjbook.css
