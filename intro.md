@@ -18,7 +18,7 @@ The text is intended primarily for use in undergraduate or graduate courses in a
 
 In this, the fourth edition, we have once again updated the entire book. The changes cover a broad spectrum, including new chapters and sections, color illustrations, and what we hope you'll find to be a more engaging writing style.
 
-**To the teacher**
+## To the teacher
 
 We have designed this book to be both versatile and complete. You should find it useful for a variety of courses, from an undergraduate course in data structures up through a graduate course in algorithms. Because we have provided considerably more material than can fit in a typical one-term course, you can select the material that best supports the course you wish to teach.
 
@@ -30,7 +30,7 @@ As with the third edition of this book, we have made publicly available solution
 
 We have starred ($\star$) the sections and exercises that are more suitable for graduate students than for undergraduates. A starred section is not necessarily more difficult than an unstarred one, but it may require an understanding of more advanced mathematics. Likewise, starred exercises may require an advanced background or more than average creativity.
 
-**To the student**
+## To the student
 
 We hope that this textbook provides you with an enjoyable introduction to the field of algorithms. We have attempted to make every algorithm accessible and interesting. To help you when you encounter unfamiliar or difficult algorithms, we describe each one in a step-by-step manner. We also provide careful explanations of the mathematics needed to understand the analysis of the algorithms and supporting figures to help you visualize what is going on.
 
@@ -43,7 +43,7 @@ What are the prerequisites for reading this book?
 
 Our website, http://mitpress.mit.edu/algorithms/, links to solutions for some of the problems and exercises. Feel free to check your solutions against ours. We ask, however, that you not send your solutions to us.
 
-**To the professional**
+## To the professional
 
 The wide range of topics in this book makes it an excellent handbook on algorithms. Because each chapter is relatively self-contained, you can focus on the topics most relevant to you.
 
@@ -53,13 +53,13 @@ If you wish to implement any of the algorithms, you should find the translation 
 
 We understand that if you are using this book outside of a course, then you might be unable to check your solutions to problems and exercises against solutions provided by an instructor. Our website, http://mitpress.mit.edu/algorithms/, links to solutions for some of the problems and exercises so that you can check your work. Please do not send your solutions to us.
 
-**To our colleagues**
+## To our colleagues
 
 We have supplied an extensive bibliography and pointers to the current literature. Each chapter ends with a set of chapter notes that give historical details and references. The chapter notes do not provide a complete reference to the whole field of algorithms, however. Though it may be hard to believe for a book of this size, space constraints prevented us from including many interesting algorithms.
 
 Despite myriad requests from students for solutions to problems and exercises, we have adopted the policy of not citing references for them, removing the temptation for students to look up a solution rather than to discover it themselves.
 
-**Changes for the fourth edition**
+## Changes for the fourth edition
 
 As we said about the changes for the second and third editions, depending on how you look at it, the book changed either not much or quite a bit. A quick look at the table of contents shows that most of the third-edition chapters and sections appear in the fourth edition. We removed three chapters and several sections, but we have added three new chapters and several new sections apart from these new chapters.
 
@@ -94,17 +94,17 @@ The specific changes for the fourth edition include the following:
 * Section 34.5.6 summarizes strategies for polynomial-time reductions to show that problems are NP-hard.
 * The proof of the approximation algorithm for the set-covering problem in Section 35.3 has been revised.
 
-**Website**
+## Website
 
 You can use our website, http://mitpress.mit.edu/algorithms/, to obtain supplementary information and to communicate with us. The website links to a list of known errors, material from the third edition that is not included in the fourth edition, solutions to selected exercises and problems, Python implementations of many of the algorithms in this book, a list explaining the corny professor jokes (of course), as well as other content, which we may add to. The website also tells you how to report errors or make suggestions.
 
-**How we produced this book**
+## How we produced this book
 
 Like the previous three editions, the fourth edition was produced in $\LaTeX~{2_\varepsilon}$. We used the Times font with mathematics typeset using the MathTime Professional II fonts. As in all previous editions, we compiled the index using Windex, a C program that we wrote, and produced the bibliography using $\text{Bib}\TeX$. The PDF files for this book were created on a MacBook Pro running macOS 10.14.
 
 Our plea to Apple in the preface of the third edition to update MacDraw Pro for macOS 10 went for naught, and so we continued to draw illustrations on pre-Intel Macs running MacDraw Pro under the Classic environment of older versions of macOS 10. Many of the mathematical expressions appearing in illustrations were laid in with the psfrag package for $\LaTeX~{2_\varepsilon}$.
 
-**Acknowledgments for the fourth edition**
+## Acknowledgments for the fourth edition
 
 We have been working with the MIT Press since we started writing the first edition in 1987, collaborating with several directors, editors, and production staff. Throughout our association with the MIT Press, their support has always been outstanding. Special thanks to our editors Marie Lee, who put up with us for far too long, and Elizabeth Swayze, who pushed us over the finish line. Thanks also to Director Amy Brand and to Alex Hoopes.
 
@@ -116,9 +116,7 @@ Dozens of errors in previous editions were corrected in the process of creating 
 
 We received considerable help in preparing some of the new material in this edition. Neville Campbell (unaffiliated), Bill Kuszmaul of MIT, and Chee Yap of NYU provided valuable advice regarding the treatment of recurrences in Chapter 4. Yan Gu of the University of California, Riverside, provided feedback on parallel algorithms in Chapter 26. Rob Shapire of Microsoft Research altered our approach to the material on machine learning with his detailed comments on Chapter 33. Qi Qi of MIT helped with the analysis of the Monty Hall problem (Problem C-1).
 
-Molly Seaman and Mary Reilly of the MIT Press helped us select the color palette in the illustrations, and Wojciech Jarosz of Dartmouth College suggested design improvements to our newly colored figures. Yichen (Annie) Ke and Linda
-Xiao, who have since graduated from Dartmouth, aided in colorizing the illustrations,
-and Linda also produced many of the Python implementations that are available on the book's website.
+Molly Seaman and Mary Reilly of the MIT Press helped us select the color palette in the illustrations, and Wojciech Jarosz of Dartmouth College suggested design improvements to our newly colored figures. Yichen (Annie) Ke and Linda Xiao, who have since graduated from Dartmouth, aided in colorizing the illustrations, and Linda also produced many of the Python implementations that are available on the book's website.
 
 Finally, we thank our wives -- Wendy Leiserson, Gail Rivest, Rebecca Ivry, and the late Nicole Cormen -- and our families. The patience and encouragement of those who love us made this project possible. We affectionately dedicate this book to them.
 
